@@ -30,7 +30,7 @@ const sampleDiseases: DataPagingModel<DiseasesEntity> = {
       lifestyleAndHomeRemedies: "Monitor blood sugar, maintain a healthy weight, manage stress.",
       copingAndSupport: "Join a support group, seek mental health counseling if needed.",
       alternativeMedicine: "Acupuncture, dietary supplements like chromium or magnesium.",
-      publishDate: "2024-01-15T10:00:00Z",
+      publishDate: "2024-01-15T18:12:05Z",
       tags: ["Chronic", "Diabetes", "Endocrinology"],
       images: ["http://dummyimage.com/132x158.png/dddddd/000000", "http://dummyimage.com/212x137.png/5fa2dd/ffffff"],
       author: sampleAuthor,

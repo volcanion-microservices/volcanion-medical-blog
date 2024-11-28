@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { DiseasesEntity } from '@/models/entities/diseases.entity'
+import DateUtil from '@/utils/date.util'
 
 const SingleDiseases = ({ diseases }: { diseases: DiseasesEntity }) => {
   const { name, overview, author, tags, images, publishDate } = diseases
@@ -34,7 +35,7 @@ const SingleDiseases = ({ diseases }: { diseases: DiseasesEntity }) => {
             </div>
             <div className='inline-block'>
               <h4 className='mb-1 text-sm font-medium text-dark dark:text-white'>Date</h4>
-              <p className='text-xs text-body-color'>{publishDate}</p>
+              <p className='text-xs text-body-color'>{DateUtil.formatDate(publishDate)}</p>
             </div>
           </div>
         </div>
